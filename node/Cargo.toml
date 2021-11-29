@@ -117,6 +117,11 @@ git = 'https://github.com/paritytech/substrate.git'
 tag = 'monthly-2021-11-1'
 version = '4.0.0-dev'
 
+# [dependencies.sc_proposer_metrics]
+# git = 'https://github.com/paritytech/substrate.git'
+# tag = 'monthly-2021-11-1'
+# version = '4.0.0-dev'
+
 [dependencies.sp-api]
 git = 'https://github.com/paritytech/substrate.git'
 tag = 'monthly-2021-11-1'
@@ -166,6 +171,20 @@ version = '4.0.0-dev'
 git = 'https://github.com/paritytech/substrate.git'
 tag = 'monthly-2021-11-1'
 version = '4.0.0-dev'
+
+[dependencies.sp-inherents]
+git = 'https://github.com/paritytech/substrate.git'
+tag = 'monthly-2021-11-1'
+version = '4.0.0-dev'
+
+[dependencies]
+futures = "0.3"
+
+[dependencies]
+log = "0.4"
+
+[dependencies]
+prometheus-endpoint = "2.1.2"
 
 [features]
 default = []

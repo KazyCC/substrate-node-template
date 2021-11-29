@@ -1,9 +1,9 @@
 # Purge any chain data from previous runs
 # You will be prompted to type `y`
-./target/release/node-template purge-chain --base-path /tmp/alice --chain local
+./target/debug/node-template purge-chain --base-path /tmp/alice --chain local
 
 # Start Alice's node
-./target/release/node-template \
+./target/debug/node-template \
   --base-path /tmp/alice \
   --chain local \
   --alice \

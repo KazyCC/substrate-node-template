@@ -1,6 +1,6 @@
-./target/release/node-template purge-chain --base-path /tmp/bob --chain local
+./target/debug/node-template purge-chain --base-path /tmp/bob --chain local
 
-./target/release/node-template \
+./target/debug/node-template \
   --base-path /tmp/bob \
   --chain local \
   --bob \
